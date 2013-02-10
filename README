@@ -1,0 +1,10 @@
+The purpose of this manifest is to bring PUB to more ROMs. This branch should work with any ROM that is based on AOKP and uses AOKPs Build repo. Follow these directions...
+
+Place Local_manifest in Your .repo folder.
+
+repo sync
+. build/pick.sh
+. build/envsetup.sh
+lunch
+#  <--- number of the device you want to build
+make bacon
