@@ -7,16 +7,14 @@
   <remove-project name="CyanogenMod/android_external_oprofile" />
   <remove-project name="CyanogenMod/android_frameworks_rs" />
   <remove-project name="CyanogenMod/android_external_v8" />
-  <remove-project name="CyanogenMod/android_external_webkit" />
   <project name="UnicornButter/android_build" path="build" remote="pub" revision="cm-10.1">
     <copyfile dest="Makefile" src="core/root.mk" />
   </project>
-  <project name="UnicornButter/android_bionic" path="bionic" remote="pub" revision="jb-mr1" />
+  <project name="kejar31/android_bionic" path="bionic" remote="pub" revision="cm-10.1-linaro" />
   <project name="UnicornButter/system_security" path="system/security" remote="pub" revision="jb-mr1" />
   <project name="UnicornButter/external_oprofile" path="external/oprofile" remote="pub" revision="jb-mr1" />
   <project name="UnicornButter/frameworks_rs" path="frameworks/rs" remote="pub" revision="jb-mr1" />
   <project name="UnicornButter/external_v8" path="external/v8" remote="pub" revision="jb-mr1" />
-  <project name="UnicornButter/external_webkit" path="external/webkit" remote="pub" revision="jb-mr1" />
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" revision="master" />
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="master" />
   <project groups="darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" revision="master" />
