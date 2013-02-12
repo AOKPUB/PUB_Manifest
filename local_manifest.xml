@@ -25,7 +25,6 @@
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/stlport" />
   <remove-project name="platform/external/v8" />
-  <remove-project name="platform/external/webkit" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/ex" />
@@ -46,7 +45,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="UnicornButter/android_bionic" remote="pub" revision="jb-mr1" />
+  <project name="kejar31/android_bionic" path="bionic" remote="pub" revision="cm-10.1-linaro" />
   <project path="dalvik" name="UnicornButter/dalvik" remote="pub" revision="jb-mr1" />
   <project path="development" name="UnicornButter/development" remote="pub" revision="jb-mr1" />
   <project path="device/lge/mako" name="UnicornButter/device_lge_mako" remote="pub" revision="jb-mr1" />
@@ -64,7 +63,6 @@
   <project path="external/skia" name="UnicornButter/external_skia" remote="pub" revision="jb-mr1" />
   <project path="external/stlport" name="UnicornButter/external_stlport" remote="pub" revision="jb-mr1" />
   <project path="external/v8" name="UnicornButter/external_v8" remote="pub" revision="jb-mr1" />
-  <project path="external/webkit" name="UnicornButter/external_webkit" remote="pub" revision="jb-mr1" />
   <project path="external/wpa_supplicant_8" name="UnicornButter/external_wpa_supplicant_8" remote="pub" revision="jb-mr1" />
   <project path="frameworks/compile/mclinker" name="UnicornButter/frameworks_compile_mclinker" remote="pub" revision="jb-mr1" />
   <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="pub" revision="jb-mr1" />
